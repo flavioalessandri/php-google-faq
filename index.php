@@ -79,13 +79,13 @@ $google = [
 
   <?php
 
-    foreach ( $answer as $paragraph) {
+    foreach ( $answer as $answers) {
 
   ?>
 
     <p style = "letter-spacing: .2px;line-height: 24px; padding-top: 20px;margin: 10px 0;">
 
-       <?php echo $paragraph ?>
+       <?php echo $answers ?>
 
      </p>
 
